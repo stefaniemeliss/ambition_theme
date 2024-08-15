@@ -69,6 +69,12 @@ ambition_theme <- theme_bw(base_family = "Segoe UI") +
     legend.position = "bottom"
   )
 
+# create a very minimal theme was discussed with Andy to facilitate export
+ambition_theme_export <- ambition_theme +
+  theme(axis.title = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank())
+
 # function to convert units from pt to mm
 # source: https://github.com/zmorrissey/commonR/blob/master/R/pt_to_mm.R
 
