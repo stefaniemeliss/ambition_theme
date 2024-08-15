@@ -70,7 +70,7 @@ ambition_theme <- theme_bw(base_family = "Segoe UI") +
   )
 
 # create a very minimal theme was discussed with Andy to facilitate export
-ambition_theme_export <- ambition_theme +
+ambition_theme_minimal <- ambition_theme +
   theme(axis.title = element_blank(),
         axis.text = element_blank(),
         axis.ticks = element_blank())
