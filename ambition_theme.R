@@ -50,7 +50,7 @@ font_size = 12
 head_size = font_size + 2
 
 # define theme for plot
-ambition_theme <- theme_bw(base_family = "Segoe UI") + 
+ambition_theme <- theme_bw(base_family = "SegoeUI") + 
   theme(
     # font size and face settings
     text = element_text(family = "Segoe UI", size = font_size),
