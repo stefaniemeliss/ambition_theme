@@ -40,8 +40,8 @@ black20 <- col.tint(black, tint = .2)
 black10 <- col.tint(black, tint = .1)
 
 # load libraries
-library(ggplot2)
 library(extrafont)
+library(ggplot2)
 # if not run before, run
 # font_import()
 
