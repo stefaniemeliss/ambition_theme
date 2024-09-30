@@ -49,8 +49,11 @@ library(ggplot2)
 font_size = 12
 head_size = font_size + 2
 
+theme_set(theme_bw(base_family = "Segoe UI"))
+
+
 # define theme for plot
-ambition_theme <- theme_bw(base_family = "Segoe UI") + 
+ambition_theme <- theme_bw() + 
   theme(
     # font size and face settings
     text = element_text(size = font_size),
