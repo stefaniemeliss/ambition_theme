@@ -3,4 +3,7 @@
 .Rhistory
 *.Rproj
 .Rproj.user
-.Rhistory
+*.Rhistory
+*.pper
+*.html
+*.png
